@@ -1,0 +1,14 @@
+# Installation
+
+This project was developed using a number of `Python packages`, all of which must be installed before the project can be used. The versions of the packages must match the ones used during the project's development because using a different version may result in unexpected behaviours. It is important to note that for this project to run smoothly, ***Python version 3 upwards*** is highly recommended.
+
+`Steps`
+
+1. ***Python*** :
+    Visit the python official website to install python (`https://www.python.org/downloads/`). Download a python interpreter compatible with your device. For ***Mac*** the in built one is not recommended update to ***Python 3***
+
+2. ***Packages*** :
+    To install the packages used and their respective version which is located in the requirements.txt file. Open the project folder in ***Command Prompt*** or ***Terminal (Mac)*** and type the following command `python -m pip install -r requirements.txt`. For ***Mac Users*** use `python3 -m pip install -r requirements.txt`.
+
+3. ***Starting the app*** :
+    After installing all packages used for this project run it and see the output on browser use `streamlit run app.py`.
